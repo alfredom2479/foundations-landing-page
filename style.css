@@ -7,7 +7,7 @@ body{
 .first-section{
   background: #1F2937;
   color: #f9faf8;
-  height: 400px;
+  height: 90vh;
   padding: 0 24px;
   display:flex;
   flex-direction: column;
@@ -88,10 +88,11 @@ p{
 .second-section{
   background: #f9faf8;
   color: #1f2937;
-  height: 400px;
-  padding: 0 24px;
+  height: 50vh;
+  padding: 0 48px;
   display:flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .section-2-header{
@@ -103,10 +104,12 @@ p{
 
 .section-2-content{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   gap: 32px;
   flex-wrap: wrap;
-  padding-top: 16px;
+  //padding-top: 16px;
+  height: 100%;
+  align-content: center;
 }
 
 .content-box{
@@ -138,7 +141,7 @@ p{
 
 .third-section{
   background: #e5e7eb;
-  height: 400px;
+  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -162,7 +165,7 @@ p{
   align-self: end;
 }
 .fourth-section{
-  height: 400px;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
